@@ -1,16 +1,18 @@
 # Free-internet-for-wifi-5G
 Bash script helps you get a free 5G Wi-Fi internet subscription
 ##  Installation
-**Install arp-scan**
+**arp-scan**
    ```sh
    sudo apt install arp-scan
   ```
-**Install macchanger**
+**macchanger**
    ```sh
    sudo apt install macchanger
   ```
 ##  USAGE
-**Downlaod script**
+**Get script**
    ```sh
-   sudo apt install arp-scan
+   git clone https://github.com/3bdurahman/Free-internet-for-wifi-5G.git
+   chmod 755 abdo_hashem.sh
+   sudo bash abdo_hashem.sh
   ```
