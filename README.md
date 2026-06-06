@@ -8,7 +8,8 @@ Bash script helps you get a free 5G Wi-Fi internet subscription
   ```
 ---
 ##  USAGE
-**NOTE: This script only works with 5G wifi.**
+**NOTE: 1- This script only works with 5G wifi
+        2- If use Vmware change network to bridge **
    ```sh
    git clone https://github.com/3bdurahman/Free-internet-for-wifi-5G.git
    cd Free-internet-for-wifi-5G/
