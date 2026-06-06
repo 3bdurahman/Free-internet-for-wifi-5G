@@ -5,6 +5,7 @@ Bash script helps you get a free 5G Wi-Fi internet subscription
    sudo apt install arp-scan
    sudo apt install macchanger
   ```
+---
 ##  USAGE
 **NOTE: This script only works with 5G wifi.**
    ```sh
