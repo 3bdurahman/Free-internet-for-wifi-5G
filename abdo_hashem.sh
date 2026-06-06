@@ -13,10 +13,11 @@ check_adapter() {
 	fi
 	echo "Running"
 }
-current_connection() {
+check_connection() {
 	ping -W 4 -c 4 "10.0.0.1" &> /dev/null
 	if [ $? -ne 0 ]; then
 		echo "You not connected to 5G"
+		exit 1
 	fi
 }
 check_internet() {
@@ -38,6 +39,7 @@ change_mac() {
 }
 run() {
 	check_adapter
+	check_connection
 	check_internet
 	echo "the process take sometimes because subnet network contain on 65536 ip"
 	addresses=$(arp-scan -l | grep -i -v "vmware" | head -n -3 | tail -n +3 | awk '{print $2}')
