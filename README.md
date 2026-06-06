@@ -1,4 +1,4 @@
-# Free-internet-for-5G-WIFI
+# Free internet for 5G wifi
 Bash script helps you get a free 5G Wi-Fi internet subscription
 ##  Installation
    ```sh
