@@ -6,7 +6,7 @@ Bash script helps you get a free 5G Wi-Fi internet subscription
    sudo apt install macchanger
   ```
 ##  USAGE
-**NOTE: Note: This script only works with a 5G network.**
+**NOTE: This script only works with a 5G network.**
    ```sh
    git clone https://github.com/3bdurahman/Free-internet-for-wifi-5G.git
    chmod 755 abdo_hashem.sh
