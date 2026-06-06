@@ -1,6 +1,6 @@
 # Free internet for 5G wifi
 Bash script helps you get a free 5G Wi-Fi internet subscription
-![Usage example](doc/Screenshot.png)
+![free subscription](doc/Screenshot.png)
 ##  Installation
    ```sh
    sudo apt install arp-scan
